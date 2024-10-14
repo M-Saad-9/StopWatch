@@ -1,0 +1,70 @@
+body{
+    background-color: #2e2e45;
+    padding-top: 50px;
+}
+.h1{
+    text-align: center;
+    color: #0089ff;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 20px 2px #0089ff;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: black;
+    min-width: 250px;
+}
+
+#cantanier{
+    display: flex;
+    justify-content: center;
+}
+#hour{
+    background: -webkit-linear-gradient(90deg, rgb(3, 255, 3), rgb(255, 196, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#min{
+    background: -webkit-linear-gradient(90deg, #FFEB3B, #ff0000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#sec{
+    background: -webkit-linear-gradient(90deg, #3b92ff, #673AB7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#start{
+    background-color: #007de7;
+    font-family: emoji;
+    font-size: large;
+    color: #fbfbfb;
+}
+#start:hover {
+    background-color: #2e2e45;
+}
+
+#stop{
+    background-color: #007de7;
+    font-family: emoji;
+    font-size: large;
+    color: #fbfbfb;
+}
+#stop:hover {
+    background-color: #2e2e45;
+}
+#reset{
+    background-color: #007de7;
+    font-family: emoji;
+    font-size: large;
+    color: #fbfbfb;
+}
+#reset:hover {
+    background-color: #2e2e45;
+}
